@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <%- include ('./parts/_nav'); %>
+        <section class="mt-2">
+            <div class="container">
+                <div class="row">
+                    <%- include ('./parts/_left_sidebar'); %>
+                        <div class="col-6 p-4">
+                            <div class="p-3 articles">
+                                <h1>Hello World</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt voluptate
+                                    explicabo quibusdam ipsam accusamus, at, consequatur omnis blanditiis temporibus
+                                    ullam eligendi debitis nesciunt possimus! Hic, at debitis? Error, nihil natus.</p>
+                            </div>
+
+
+                            <footer class="p-5 position-relative">
+                                <div class="container">
+                                    <a href="#" class="position-absolute bottom-0 end-0 p-5" id="navbar">
+                                        <i class="bi bi-arrow-up-circle h1"></i>
+                                    </a>
+                                </div>
+                            </footer>
+
+
+
+
+
+
+                        </div>
+                        <div class=" col-3">
+                            <%- include('./parts/_right_sidebar'); %>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
